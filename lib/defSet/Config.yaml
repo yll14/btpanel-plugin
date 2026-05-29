@@ -1,0 +1,4 @@
+# API地址
+bt_url: "https://127.0.0.1:8080"
+# API_SK 宝塔面板 API 密钥
+API_SK: "btpanel-api-sk"

@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "HYWenHei";
+  src: url("../font/HYWenHei-55W.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 530px;
+  color: #1e1f20;
+  transform: scale(1.5);
+  transform-origin: 0 0;
+  background-color: #fff;
+  line-height: 1.4;
+}
+
+.container {
+  width: 530px;
+  padding: 20px;
+  background: #fff;
+}
+
+.data_box {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 15px 15px 15px;
+  background: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid #e9ecef;
+}
+
+/* 左上角标签 - 支持图标 */
+.tab_lable {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  padding: 4px 12px 4px 36px; /* 增加左边距为图标留空间 */
+  border-radius: 4px;
+  z-index: 20;
+  max-width: 80%;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: "HYWenHei", sans-serif;
+  line-height: 1.3;
+  white-space: normal;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  min-height: 28px; /* 确保有足够高度容纳图标 */
+  display: flex;
+  align-items: center;
+}
+
+/* 标签内的图标 */
+.tab_lable img {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* 列表容器 */
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* 列表项样式 */
+.list .item {
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #dee2e6;
+  position: relative;
+  min-height: 80px;
+}
+
+.list .item:last-child {
+  margin-bottom: 0;
+}
+
+/* 标题区域 */
+.list .item .title {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: 500;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  width: 100%;
+  padding-right: 0;
+}
+
+/* 主标题 */
+.list .item .title .text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2d3748;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  font-family: "HYWenHei", sans-serif;
+  display: block;
+  width: 100%;
+}
+
+/* 描述文字 */
+.list .item .title .dec {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  line-height: 1.4;
+  margin-top: 4px;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  width: 100%;
+  padding-right: 0;
+}
+
+/* 作者样式 */
+.list .item .title .dec:first-of-type {
+  color: #4299e1;
+}
+
+/* 链接样式 */
+.list .item .title .dec:last-of-type {
+  color: #718096;
+  font-size: 11px;
+  background: #f1f5f9;
+  padding: 4px 6px;
+  border-radius: 3px;
+  margin-top: 6px;
+  border-left: 2px solid #4299e1;
+  word-break: break-all;
+}
+
+/* 版权信息 */
+.logo {
+  font-size: 13px;
+  font-family: "HYWenHei", sans-serif;
+  text-align: center;
+  color: #fff;
+  background: #4c51bf;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 15px;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+/* 确保所有文字完整显示 */
+.tab_lable,
+.list .item .title .text,
+.list .item .title .dec,
+.logo {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  max-height: none !important;
+}
+
+/* 确保item有足够高度显示所有内容 */
+.list .item {
+  min-height: auto;
+  height: auto;
+  overflow: visible;
+}
+
+/* 调整字体大小确保完整显示 */
+@media (max-width: 530px) {
+  .tab_lable {
+    font-size: 13px;
+    padding: 3px 10px 3px 32px;
+    top: -10px;
+  }
+
+  .tab_lable img {
+    width: 16px;
+    height: 16px;
+    left: 7px;
+  }
+
+  .list .item {
+    padding: 10px;
+  }
+
+  .list .item .title .text {
+    font-size: 14px;
+  }
+
+  .list .item .title .dec {
+    font-size: 11px;
+  }
+
+  .list .item .title .dec:last-of-type {
+    font-size: 10px;
+  }
+}
+
+/* 可选：如果图标可能会比较大，可以调整标签样式 */
+.tab_lable.large-icon {
+  padding-left: 40px;
+}
+
+.tab_lable.large-icon img {
+  width: 24px;
+  height: 24px;
+  left: 6px;
+}

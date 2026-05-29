@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{Path}}html/hot.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  {{@headStyle}} {{each Data val}}
+
+  <body>
+    <div class="container" id="container">
+      <!-- <div class="head_box">
+        <div class="id_text">{{val.title}}</div>
+        <h2 class="day_text">{{val.type}}</h2>
+      </div>-->
+      <div class="data_box">
+        <div class="tab_lable">
+          <img
+            class="icon"
+            width="18"
+            height="18"
+            src="{{Path}}img/icon/{{icon}}.png"
+          />{{val.title}}{{val.type}}
+        </div>
+        <div class="list">
+          {{each val.data.slice(0, 10) item index}}
+          <div class="item">
+            <div class="title">
+              <div class="text">Top{{index+1}}:{{item.title}}</div>
+              {{if item.desc}} {{if item.desc != "该视频暂无简介"}}
+              <div class="dec">简述:{{item.desc}}</div>
+              {{/if}} {{/if}} {{if item.author}}
+              <div class="dec">作者:{{item.author}}</div>
+              {{/if}}
+              <!-- Github 用-->
+              {{if item.owner}}
+              <div class="dec">Auhtor:{{item.owner}}</div>
+              {{/if}} {{if item.language}}
+              <div class="dec">Auhtor:{{item.language}}</div>
+              {{/if}} {{if item.stars}}
+              <div class="dec">Start:{{item.stars}}</div>
+              {{/if}} {{if item.forks}}
+              <div class="dec">Forks:{{item.forks}}</div>
+              {{/if}}
+              <!-- Github 用 -->
+              <div class="dec">链接:{{item.url}}</div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    {{/each}}
+    <div class="logo">
+      Created By {{botname}} {{MiaoV}} & XingLuo-Plugin {{version}} & {{author}}
+    </div>
+  </body>
+</html>
