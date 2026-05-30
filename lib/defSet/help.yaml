@@ -1,6 +1,55 @@
-- group: 热搜插件帮助
+- group: 宝塔插件帮助
   list:
-    - icon: help
-      title: "(|)内文字说明其中一个即可"
-      desc: "例:(a|b)则a也可以b也可以，字母不区分大小写"
-
+    - icon: bt_logo
+      title: "#宝塔帮助"
+      desc: "查看本插件帮助"
+    - icon: bt_logo
+      title: "系统管理"
+      desc: "系统状态与运维"
+    - icon: bt_logo
+      title: "#系统状态"
+      desc: "查看服务器完整状态（可配置显示项）"
+    - icon: bt_logo
+      title: "#磁盘信息 | #内存详情 | #CPU详情"
+      desc: "查看磁盘/内存/CPU 详情"
+    - icon: bt_logo
+      title: "#系统负载 | #网络流量"
+      desc: "查看负载与网络流量"
+    - icon: bt_logo
+      title: "#释放内存 | #重启面板 | #清理系统"
+      desc: "运维操作（仅主人）"
+    - icon: bt_logo
+      title: "#服务重启 nginx"
+      desc: "管理服务启停，支持 nginx/mysqld/redis 等（仅主人）"
+- group: 网站 / 数据库 / 任务
+  list:
+    - icon: bt_logo
+      title: "#网站列表"
+      desc: "查看所有网站"
+    - icon: bt_logo
+      title: "#网站开启 域名 | #网站停止 域名"
+      desc: "启停网站（仅主人）"
+    - icon: bt_logo
+      title: "#网站备份 域名 | #网站SSL 域名"
+      desc: "备份网站 / 查看 SSL"
+    - icon: bt_logo
+      title: "#数据库列表 | #数据库状态 | #MySQL配置"
+      desc: "数据库查询"
+    - icon: bt_logo
+      title: "#数据库备份 库名"
+      desc: "备份数据库（仅主人）"
+    - icon: bt_logo
+      title: "#计划任务"
+      desc: "查看计划任务列表"
+    - icon: bt_logo
+      title: "#任务启用 ID | #任务暂停 ID | #任务日志 ID"
+      desc: "管理计划任务（启停仅主人）"
+    - icon: bt_logo
+      title: "#FTP列表"
+      desc: "查看 FTP 用户"
+    - icon: bt_logo
+      title: "#后台任务"
+      desc: "查看面板后台任务队列"
+    - icon: bt_logo
+      title: "#安全扫描 | #安全评分"
+      desc: "查看安全扫描结果与评分"

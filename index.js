@@ -177,8 +177,8 @@ logger.info(
     chalk.rgb(255, 165, 107)(`B`) +
     chalk.rgb(255, 231, 107)(`y`) +
     chalk.rgb(107, 255, 150)(` `) +
-    chalk.rgb(255, 107, 107)(global.XINGLUO.PluginAuthor[0]) +
-    chalk.rgb(255, 165, 107)(global.XINGLUO.PluginAuthor[1]),
+    chalk.rgb(255, 107, 107)(global.BTpanelPlugin.PluginAuthor[0]) +
+    chalk.rgb(255, 165, 107)(global.BTpanelPlugin.PluginAuthor[1]),
 );
 logger.info(
   chalk.rgb(255, 107, 107)(`-`) +

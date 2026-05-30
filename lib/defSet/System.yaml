@@ -1,0 +1,56 @@
+# ── #系统状态 ──
+system: true
+version: true
+time: true
+memTotal: true
+memRealUsed: true
+memAvailable: true
+memFree: true
+memBuffers: true
+memCached: true
+memShared: true
+cpuNum: true
+cpuRealUsed: true
+
+# ── #磁盘信息 ──
+diskPath: true
+diskType: true
+diskTotal: true
+diskUsed: true
+diskAvail: true
+diskUsage: true
+
+# ── #内存详情（与系统状态共用 mem* 字段）──
+
+# ── #CPU详情 ──
+cpuModel: true
+cpuUsageTotal: true
+cpuLogicNum: true
+cpuPhysCores: true
+cpuPhysNum: true
+cpuPerCore: true
+
+# ── #系统负载 ──
+loadOne: true
+loadFive: true
+loadFifteen: true
+loadSafe: true
+loadMax: true
+
+# ── #网络流量 ──
+netSystem: true
+netTime: true
+netRate: true
+netTotal: true
+netNic: true
+
+# ── #释放内存 结果 ──
+reMemTotal: true
+reMemFree: true
+reMemRealUsed: true
+
+# ── #重启面板 / #清理系统 / #服务管理 结果 ──
+reWebResult: true
+clearCount: true
+clearBytes: true
+serviceResult: true

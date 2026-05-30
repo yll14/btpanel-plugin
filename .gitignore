@@ -1,6 +1,7 @@
 # 排除特定目录及其内容
 node_modules/
 config/
+docs/
 
 # 排除所有的 .log 文件
 #*.log
