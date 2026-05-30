@@ -1,0 +1,6 @@
+memTotal: true
+memRealUsed: true
+memAvailable: true
+memFree: true
+memBuffers: true
+memCached: true

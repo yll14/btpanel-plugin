@@ -1,0 +1,6 @@
+cpuModel: true
+cpuUsageTotal: true
+cpuLogicNum: true
+cpuPhysCores: true
+cpuPhysNum: true
+cpuPerCore: true

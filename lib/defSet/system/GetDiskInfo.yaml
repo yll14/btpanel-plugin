@@ -1,0 +1,6 @@
+diskPath: true
+diskType: true
+diskTotal: true
+diskUsed: true
+diskAvail: true
+diskUsage: true

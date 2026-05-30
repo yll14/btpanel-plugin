@@ -1,0 +1,12 @@
+system: true
+version: true
+time: true
+memTotal: true
+memRealUsed: true
+memAvailable: true
+memFree: true
+memBuffers: true
+memCached: true
+memShared: true
+cpuNum: true
+cpuRealUsed: true

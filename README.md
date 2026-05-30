@@ -98,7 +98,7 @@ API_SK: "你的API密钥"
 
 也可通过 **锅巴插件** 可视化配置面板地址与 API 密钥。
 
-`config/System.yaml` 可控制各系统命令回复内容的显示字段（支持锅巴开关配置）。
+`config/system/` 下每个功能一个 yaml 文件，与 `lib/apps/system/` 代码一一对应（支持锅巴开关配置）。
 
 ## 插件 API 文档
 

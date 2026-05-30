@@ -1,0 +1,5 @@
+netSystem: true
+netTime: true
+netRate: true
+netTotal: true
+netNic: true

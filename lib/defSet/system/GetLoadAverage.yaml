@@ -1,0 +1,5 @@
+loadOne: true
+loadFive: true
+loadFifteen: true
+loadSafe: true
+loadMax: true
