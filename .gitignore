@@ -9,7 +9,3 @@ docs/
 #*~
 # 排除目录下的文件
 lib/apps/dev.js
-test-report.json
-test-report.txt
-test.js
-
