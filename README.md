@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # 宝塔插件 V1.0.0 (btpanel-plugin)
@@ -142,3 +143,6 @@ Yunzai-Bot（V3）：[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) / [☞Gith
 宝塔面板：[☞宝塔官网](https://www.bt.cn)
 
 </div>
+=======
+初始化
+>>>>>>> 5f316ebd2fd4aa3264e0ada2c8129c02bbd7923c
