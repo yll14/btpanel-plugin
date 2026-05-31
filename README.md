@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
 # 宝塔插件 V1.0.0 (btpanel-plugin)
@@ -67,6 +66,12 @@ git clone --depth=1 https://github.com/yll14/btpanel-plugin.git ./plugins/btpane
 ```sh
 # Github - 通过 ghproxy.net 镜像加速
 git clone --depth=1 https://ghproxy.net/https://github.com/yll14/btpanel-plugin.git ./plugins/btpanel-plugin/
+```
+
+***CNB***
+
+```sh
+git clone --depth=1 https://cnb.cool/yll14/btpanel-plugin.git ./plugins/btpanel-plugin/
 ```
 
 ### 方式二：手动下载插件（不推荐：后续无法直接更新，需手动再次下载）
@@ -143,6 +148,3 @@ Yunzai-Bot（V3）：[☞Gitee](https://gitee.com/Le-niao/Yunzai-Bot) / [☞Gith
 宝塔面板：[☞宝塔官网](https://www.bt.cn)
 
 </div>
-=======
-初始化
->>>>>>> 5f316ebd2fd4aa3264e0ada2c8129c02bbd7923c
