@@ -2,7 +2,7 @@
 
 # 宝塔插件 V1.0.0 (btpanel-plugin)
 
-> 基于宝塔面板 API 的 Yunzai 运维插件。如有 Bug 请提 [Issues](https://gitee.com/yll14/btpanel-plugin/issues/new/choose)，我会在看到后第一时间尝试修复。
+> 基于宝塔面板 API 的 Yunzai 运维插件。如有 Bug 请提 [Issues](/issues/new/choose)，我会在看到后第一时间尝试修复。
 
 </div>
 
@@ -112,7 +112,7 @@ API_SK: "你的API密钥"
 
 ## 其他
 
-- 由于宝塔 API 可能随面板版本变更，部分接口可能失效。若发现失效 API，可联系作者或发起 [Issues](https://gitee.com/yll14/btpanel-plugin/issues/new/choose)
+- 由于宝塔 API 可能随面板版本变更，部分接口可能失效。若发现失效 API，可联系作者或发起 [Issues](/issues/new/choose)
 
 - **_联系方式_**
 
