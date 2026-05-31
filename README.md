@@ -2,7 +2,7 @@
 
 # 宝塔插件 V1.0.0 (btpanel-plugin)
 
-> 基于宝塔面板 API 的 Yunzai 运维插件。如有 Bug 请提 [Issues](./issues)，我会在看到后第一时间尝试修复。
+> 基于宝塔面板 API 的 Yunzai 运维插件。如有 Bug 请提 [Issues](../../issues)，我会在看到后第一时间尝试修复。
 
 </div>
 
